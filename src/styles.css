@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#con{
+    display: flex;
+    margin: 0 auto;
+    padding: 130px;
+}
+#A{
+    width: 50%; 
+    padding-left: 10px;
+    max-width: 800px;
+}
+#B{
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: rgb(43, 226, 95);
+}
+#navbar{
+    padding: 10px;
+    margin-top: 0;
+}
+#logo{
+    height: 50px;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+}/* for elements u just call them but it applies to all*/
+#banner{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;/*so when we strech the page the image wont fkup*/
+    
+}/* to call an element with an ID u use # b4 the ID of said element*/
+#team{
+    width:50%;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-left: 150PX;
+}
+.location{
+    color: gray;
+}/* to call a class which is a selection of many elements u use . b4 the name of said class*/
+
+/*padding is for content*/
+/*margin is for elements*/
+/*marign set to auto left and right will keep the element centered at all times Ex margin: 0 auto;*/
+#offers{
+    padding: 10px;
+
+}
+.apply{
+    float: right;
+    padding-right: 150px;
+}
+#footer{
+    background-color: beige;
+    text-align: center;
+    margin-top: 32px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+#footer-links{
+    list-style: none;
+}
+#footer-links li{
+    display: inline;
+    margin: 0 60px;
+    padding-top: 10px;
+}
+#jobs-t{
+    width: 75%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 130px;
+}
+#jobs-t tr:nth-child(odd){
+    background-color: ghostwhite;
+}/*this is to alternate the color between table rows*/
+
+.j-h-r th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.j-d-r td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+#app{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.form-group{
+    margin-top: 16px;
+}
+#app-form label{
+    font-weight: 600;
+}
+.form-group textarea{
+    width: 80%;
+    font-family: sans-serif;
+}
+#app-form input, select, textarea {
+    padding: 8px;
+    font-size: 1rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.form-group input[type="submit"]{
+    background-color: #3B82F6;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
