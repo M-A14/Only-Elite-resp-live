@@ -1,2 +1,2 @@
-# mark0.1
+# only elite
 website for trial and training 
